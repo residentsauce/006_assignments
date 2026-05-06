@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "uvKits";
+    src: url(assets/uvKits.ttf);
+}
+
+body{
+    font-family: "uvKits";
+    background-color: #414141;
+    color: #a0a0a0;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    align-items: center;
+}
+
+.header{
+    justify-content: center;
+    background: #000000;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.imginfo{
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.imgWrap{
+    max-width: 150px;
+    display: block;
+}
+
+.main{
+    margin-top: 20px;
+    background: #000000;
+    border-radius: 3px;
+    padding: 40px 40px 100px 84px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.aboutme{
+    width: 800px;
+}
+
+.homeworkList{
+    list-style: none;
+    color: #acacac;
+    margin-left: -40px;
+}
+
+.backToMain{
+    color: #acacac;
+}
+
+.hwLink{
+    color: #acacac;
+    text-decoration: none;
+}
+
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.homeworkCSS{
+    margin: auto;
+    background: #000000;
+    border-radius: 3px;
+    padding: 40px 84px;
+    font-family: "uvKits";
+}
+
+.homeworkCSS2{
+    justify-content: flex-start;
+    max-width: auto;
+}
+
+.homeworkCSS3{
+    max-width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.precode{
+    background-color: #383838;
+    border-radius: 10px;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
