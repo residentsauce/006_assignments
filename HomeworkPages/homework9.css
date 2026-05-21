@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "uvKits";
+    src: url(../assets/uvKits.ttf);
+}
+
+
+body{
+    font-family: "uvKits";
+    background-color: #414141;
+    color: #a0a0a0;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    width: 30%;
+    padding: 40px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    background-color: #414141;
+    border-radius: 4px;
+    color: #a0a0a0;
+}

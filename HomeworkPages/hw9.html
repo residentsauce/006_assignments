@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Survey</title>
+    <link rel="stylesheet" href="homework9.css">
+</head>
+<body>
+
+<a href="../index.html" style="color: #a0a0a0;">Back to main</a>
+
+    <div class="main">
+
+        <h1>MUSIC SURVEY</h1>
+
+        <form action="http://www.uyar.com/teaching/ecc006/2017spring/login.php" method="POST">
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="userName"> 
+            </div>
+            <div> 
+                <label for="email">Email:</label>
+                <input id="name" type="text" name="email">
+            </div>
+
+            <br> <br>
+
+            <fieldset>
+                <legend>Select Your Favorite Music Janre</legend>
+                <div class="checkbox-group">
+                    <input type="checkbox" value="pop"> Rop
+                    <input type="checkbox" value="pop"> Rock
+                    <input type="checkbox" value="pop"> Jungle
+                    <input type="checkbox" value="pop"> metal <br>
+                    <input type="checkbox" value="pop"> DNB 
+                    <input type="checkbox" value="pop"> Country
+                    <input type="checkbox" value="pop"> Rap
+                    <input type="checkbox" value="pop"> Breakcore
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select How Often You Purchase Music CD's</legend>
+                <div class="radio-group">
+                    <input type="radio" value="pop">Weekly
+                    <input type="radio" value="pop">A few each year 
+                    <input type="radio" value="pop">Monthky 
+                    <input type="radio" value="pop">Never 
+                </div>
+            </fieldset>
+
+            <br> <br>
+
+            <div>
+                Places u listen to music
+                <select name="place" id="place">
+                    <option value="home">At home</option>
+                    <option value="home">in the car</option>
+                    <option value="home">Anywhere</option>
+                </select>
+            </div>
+
+            <br> <br>
+
+
+            <div>
+                What role does music play in ur life??? <br>
+                <textarea name="comments" id="comments" rows="3" cols="60" placeholder="When I was a kid..."></textarea>
+            </div>
+
+            <br> <br>
+
+            <div class="btn"> 
+                <button>Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+                
+
+           </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "uvKits";
+    src: url(../assets/uvKits.ttf);
+}
+
+
+body{
+    font-family: "uvKits";
+    background-color: #414141;
+    color: #a0a0a0;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    align-items: center;
+}
+
+.homeworkCSS{
+    margin: auto;
+    background: #000000;
+    border-radius: 3px;
+    padding: 40px 84px;
+    font-family: "uvKits";
+}
+
+.homeworkCSS2{
+    justify-content: flex-start;
+    max-width: auto;
+}
+
+.homeworkCSS3{
+    max-width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.precode{
+    background-color: #383838;
+    border-radius: 10px;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.backToMain{
+    color: #acacac;
+}
+
+.interstellar{
+    display: flex;
+    justify-content: center;
+    color: #a0a0a0;
+}
+
+.interstellar img{
+    width: 256px;
+}
+
+body table{
+    margin: 20px;
+    display: flex;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid #a0a0a0;
+    background-color: #000000;
+}
+
+.main{
+    display: flex;
+    gap: 50px;
+}
+
+.box{
+    background-color: #000000;
+    color: #a0a0a0;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    text-align: start;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.box a{
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.box a:hover{
+    text-decoration: underline;
+}
+
+.ecom{
+    background-color: #000000;
+    color: #a0a0a0;
+    display: flex;
+}
